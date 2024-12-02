@@ -1,0 +1,20 @@
+Note: You have to do all of these in an NPC mob (spawned with /give @s spawn_egg 1 51) on button mode.
+Note 2: For space, I omitted "execute as @p run" from all of them. Make sure to put "execute as @p run" at the start of all of these commands.
+
+To summon: agent create
+To move: agent move (direction: left, right, back, down, forward, and up)
+To turn: agent turn (direction: left or right)
+To break a block: agent destroy (direction: up, down, left, right, forward, back)
+To delete agent (this command does not work in 1.21.44 and below): agent delete
+To attack a mob: agent attack (direction: left, right, up, down, back, forward)
+To till soil: agent till (direction: forward, down, up, left, right, back)
+To place and/or use something: agent place (slot in inventory)
+To drop something: agent drop (slot in inventory or item) (amount)
+To pick up something: agent take (item) (direction: left, right, forward, down, up, back)
+To inspect a block: agent inspect (direction)
+To get block data: agent inspectdata (direction)
+To set an inventory item: agent setitem (slot) (item) (amount)
+To transfer inventory items: agent transfer (from slot) (to slot) (amount)
+To detect a block: agent detect (direction)
+To interact with objects: agent interact (direction)
+To collect dropped items: agent collect
